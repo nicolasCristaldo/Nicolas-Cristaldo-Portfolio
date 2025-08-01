@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Geologica";
+  src: url(../fonts/Geologica-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Geologica";
+  src: url(../fonts/Geologica-Light.ttf) format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Geologica";
+  src: url(../fonts/Geologica-Bold.ttf) format("truetype");
+  font-weight: 600;
+}

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Nicolás Cristaldo." />
+    <meta name="author" content="Nicolás Cristaldo" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="icon" type="image/x-icon" href="assets/portfolio-logo.ico" />
+    <title>Nicolás Cristaldo</title>
+  </head>
+  <body>
+    <div class="borders-container">
+      <div class="border-top border"></div>
+      <div class="border-bottom border"></div>
+      <div class="border-right border"></div>
+      <div class="border-left border"></div>
+    </div>
+    <div class="frame"></div>
+    <canvas id="bg-canvas"></canvas>
+    <div class="page">
+      <header class="header">
+        <h1 class="header__title">Nicolás Cristaldo</h1>
+        <p class="header__desc">
+          <span class="animated-green">Android</span> developer
+        </p>
+        <nav class="header__nav">
+          <ul class="header__nav__item-container">
+            <li class="header__nav__item">
+              <a href="#home" id="nav-home">Inicio</a>
+            </li>
+            <li class="header__nav__item">
+              <a href="#projects" id="nav-projects">Proyectos</a>
+            </li>
+
+            <li class="header__nav__item">
+              <a href="#skills" id="nav-skills">Skills</a>
+            </li>
+
+            <li class="header__nav__item">
+              <a href="#about" id="nav-about">Sobre mí</a>
+            </li>
+            <li class="header__nav__item">
+              <a href="#contact" id="nav-contact">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section id="home" class="section bottom-right">
+          <h2>Bienvenido!</h2>
+          <p>
+            Soy un desarrollador de aplicaciones
+            <span class="green-text">Android</span>, me enfoco en crear
+            experiencias modernas y funcionales con
+            <span class="green-text">Kotlin</span> y
+            <span class="green-text">Jetpack Compose</span>. ¡Visitá mis
+            proyectos y conocé mi estilo de trabajo!
+          </p>
+        </section>
+        <section id="projects" class="section project-section">
+          <h2>Proyectos</h2>
+          <div class="project-container">
+            <article class="project">
+              <h3>Tabú Palabras</h3>
+              <p>
+                Juego Android con Jetpack Compose, selección de categorías y
+                temporizador personalizable.
+              </p>
+              <img
+                src="https://raw.githubusercontent.com/nicolasCristaldo/tabu_palabras_android_compose/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+                alt="Tabú Palabras"
+              />
+              <div class="project-links">
+                <a
+                  href="https://github.com/nicolasCristaldo/tabu_palabras_android_compose"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Ver en GitHub</a
+                >
+                <a
+                  href="https://github.com/nicolasCristaldo/tabu_palabras_android_compose/blob/main/app/release/app-release.apk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Descargar APK</a
+                >
+              </div>
+            </article>
+            <article class="project">
+              <h3>MiniBlog</h3>
+              <p>
+                App tipo blog personal. Permite registrarse, iniciar sesión y
+                publicar contenido. Firebase auth y firestore.
+              </p>
+              <img
+                src="https://raw.githubusercontent.com/nicolasCristaldo/MiniBlog_android_compose/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+                alt="MiniBlog"
+              />
+              <div class="project-links">
+                <a
+                  href="https://github.com/nicolasCristaldo/MiniBlog_android_compose"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Ver en GitHub</a
+                >
+                <a
+                  href="https://github.com/nicolasCristaldo/MiniBlog_android_compose/blob/main/app/release/MiniBlog.apk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Descargar APK</a
+                >
+              </div>
+            </article>
+            <article class="project">
+              <h3>Shopping List</h3>
+              <p>
+                App de lista de compras en Android con Jetpack Compose, Room y
+                arquitectura MVVM.
+              </p>
+              <img
+                src="https://raw.githubusercontent.com/nicolasCristaldo/shopping_list_android_compose/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+                alt="Shopping List"
+              />
+              <div class="project-links">
+                <a
+                  href="https://github.com/nicolasCristaldo/shopping_list_android_compose"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Ver en GitHub</a
+                >
+                <a
+                  href="https://github.com/nicolasCristaldo/shopping_list_android_compose/blob/main/app/release/app-release.apk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Descargar APK</a
+                >
+              </div>
+            </article>
+            <article class="project">
+              <h3>Food Recipes</h3>
+              <p>
+                App de recetas con búsqueda por ingredientes, categorías y
+                favoritos con Room y Retrofit.
+              </p>
+              <img
+                src="https://raw.githubusercontent.com/nicolasCristaldo/FoodRecipes_android_compose/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+                alt="Food Recipes"
+              />
+              <div class="project-links">
+                <a
+                  href="https://github.com/nicolasCristaldo/FoodRecipes_android_compose"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Ver en GitHub</a
+                >
+                <a
+                  href="https://github.com/nicolasCristaldo/FoodRecipes_android_compose/blob/main/app/release/food_recipes.apk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Descargar APK</a
+                >
+              </div>
+            </article>
+            <article class="project">
+              <h3>My Clients</h3>
+              <p>
+                Gestor de clientes y órdenes en Android con Room y Jetpack
+                Compose, permite CRUD completo.
+              </p>
+              <img
+                src="https://raw.githubusercontent.com/nicolasCristaldo/MyClients_Android_Compose/refs/heads/main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+                alt="My Clients"
+              />
+              <div class="project-links">
+                <a
+                  href="https://github.com/nicolasCristaldo/MyClients_Android_Compose"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Ver en GitHub</a
+                >
+                <a
+                  href="https://github.com/nicolasCristaldo/MyClients_Android_Compose/blob/main/app/release/my_clients.apk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Descargar APK</a
+                >
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="skills" class="section bottom-right">
+          <h2>Skills</h2>
+          <div class="skills-container">
+            <!-- Lenguajes de Programación -->
+            <h3>Lenguajes de Programación</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <img
+                  src="assets/kotlin-logo.svg"
+                  alt="Kotlin Logo"
+                  class="skill-icon"
+                />
+                <p>Kotlin</p>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="assets/java-logo.svg"
+                  alt="Java Logo"
+                  class="skill-icon"
+                />
+                <p>Java</p>
+              </div>
+              <div class="skill-item">
+                <img src="assets/c-logo.png" alt="C Logo" class="skill-icon" />
+                <p>C</p>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="assets/c-sharp-logo.svg"
+                  alt="C Sharp Logo"
+                  class="skill-icon"
+                />
+                <p>C#</p>
+              </div>
+            </div>
+
+            <!-- Lenguajes de Marcado y Estilo -->
+            <h3>Lenguajes de Marcado y Estilo</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <img
+                  src="assets/markdown-logo.svg"
+                  alt="Markdown Logo"
+                  class="skill-icon"
+                />
+                <p>Markdown</p>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="assets/html-logo.svg"
+                  alt="HTML Logo"
+                  class="skill-icon"
+                />
+                <p>HTML</p>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="assets/css-logo.svg"
+                  alt="CSS Logo"
+                  class="skill-icon"
+                />
+                <p>CSS</p>
+              </div>
+            </div>
+
+            <!-- Frameworks y Bibliotecas -->
+            <h3>Frameworks y Bibliotecas</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <img
+                  src="assets/jetpack-compose-logo.png"
+                  alt="Jetpack Compose Logo"
+                  class="skill-icon"
+                />
+                <p>Jetpack Compose</p>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="assets/retrofit-logo.png"
+                  alt="Retrofit Logo"
+                  class="skill-icon"
+                />
+                <p>Retrofit</p>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="assets/room-logo.svg"
+                  alt="Room Logo"
+                  class="skill-icon"
+                />
+                <p>Room</p>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="assets/firebase-logo.svg"
+                  alt="Firebase Logo"
+                  class="skill-icon"
+                />
+                <p>Firebase</p>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="assets/sqlite-logo.svg"
+                  alt="SQLite Logo"
+                  class="skill-icon"
+                />
+                <p>SQLite</p>
+              </div>
+            </div>
+
+            <!-- Arquitecturas y Patrones -->
+            <h3>Arquitecturas y Patrones</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <img
+                  src="assets/mvvm-logo.svg"
+                  alt="MVVM Logo"
+                  class="skill-icon"
+                />
+                <p>MVVM</p>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="assets/clean-architecture-logo.svg"
+                  alt="Clean Architecture Logo"
+                  class="skill-icon"
+                />
+                <p>Clean Architecture</p>
+              </div>
+            </div>
+
+            <!-- Herramientas y Otros -->
+            <h3>Herramientas y Otros</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <img
+                  src="assets/android-studio-logo.svg"
+                  alt="Android Studio Logo"
+                  class="skill-icon"
+                />
+                <p>Android Studio</p>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="assets/git-logo.svg"
+                  alt="Git Logo"
+                  class="skill-icon"
+                />
+                <p>Git</p>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="assets/github-logo.svg"
+                  alt="GitHub Logo"
+                  class="skill-icon"
+                />
+                <p>GitHub</p>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="assets/gradle-logo.svg"
+                  alt="Gradle Logo"
+                  class="skill-icon"
+                />
+                <p>Gradle</p>
+              </div>
+              <div class="skill-item">
+                <img
+                  src="assets/visual-studio-code-logo.svg"
+                  alt="Visual Studio Code Logo"
+                  class="skill-icon"
+                />
+                <p>Visual Studio Code</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="section bottom-right">
+          <h2>Sobre mí</h2>
+          <p>
+            Soy Nicolás, desarrollador
+            <span class="green-text">Android</span> autodidacta desde
+            <span class="green-text">Argentina</span>. En 2024 comencé a crear
+            <span class="green-text">apps móviles</span> desde cero y descubrí
+            un gran interés por el desarrollo con
+            <span class="green-text">Kotlin</span> y
+            <span class="green-text">Jetpack Compose</span>.<br />
+            Estudié programación en la UTN, pero mi crecimiento más fuerte vino
+            por el camino
+            <span class="green-text">autodidacta</span>, creando mis propios
+            proyectos e incorporando en el camino nuevas herramientas como
+            <span class="green-text">Room</span>,
+            <span class="green-text">Retrofit</span>,
+            <span class="green-text">Firebase</span>, arquitectura
+            <span class="green-text">MVVM</span> y más.<br />
+            Mi objetivo actualmente es seguir perfeccionando mis habilidades y
+            expandir mis conocimientos hacia el desarrollo
+            <span class="green-text">multiplataforma</span> y otras
+            <span class="green-text">tecnologías móviles</span>.
+          </p>
+        </section>
+        <section id="contact" class="section bottom-right">
+          <h2>Contacto</h2>
+          <p>
+            <img
+              src="assets/email-logo.svg"
+              alt="Email logo"
+              class="contact-icon"
+            />
+            Email:
+            <a
+              href="mailto:crist4545@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              >crist4545@gmail.com</a
+            >
+          </p>
+          <p>
+            <img
+              src="assets/github-logo.svg"
+              alt="GitHub logo"
+              class="contact-icon"
+            />
+            GitHub:
+            <a
+              href="https://github.com/nicolasCristaldo"
+              target="_blank"
+              rel="noopener noreferrer"
+              >nicolasCristaldo</a
+            >
+          </p>
+          <p>
+            <img
+              src="assets/linkedin-logo.svg"
+              alt="LinkedIn logo"
+              class="contact-icon"
+            />
+            LinkedIn:
+            <a
+              href="https://www.linkedin.com/in/nicol%C3%A1s-cristaldo-76320a378/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Nicolas Cristaldo</a
+            >
+          </p>
+        </section>
+      </main>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/bg.js"></script>
+  </body>
+</html>
